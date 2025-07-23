@@ -1,2 +1,2 @@
 # Pokedex
-https://Otto-Loterio.github.io/pokedex/index.html
+https://Otto-Loterio.github.io/Pokedex/index.html
