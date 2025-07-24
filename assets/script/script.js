@@ -1,6 +1,6 @@
 const pokemonList = document.getElementById('pokemonList');
 const loadMoreButton = document.getElementById('loadMoreButton');
-const limit = 5;
+const limit = 10;
 let offset = 0;
 const maxRecords = 151
 
@@ -16,10 +16,9 @@ function loadPokemonItens(offset, limit) {
                         ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join("")}
                     </ol>
 
-                    <img src="${pokemon.photo}" 
-                        alt="${pokemon.name}">
+                   <a href="./details.html"> <img src="${pokemon.photo}" alt="${pokemon.name}"> </a>
                 </div>
-            </li>
+            </li> 
 `).join('')
         pokemonList.innerHTML += newHTML
     })
